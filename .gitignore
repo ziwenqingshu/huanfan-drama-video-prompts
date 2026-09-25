@@ -11,6 +11,7 @@
 !**/*.csv
 
 .chrome-cdp-profile/
+.learnings/
 **/.plus-translation-work/
 **/node_modules/
 **/network-pilot*
