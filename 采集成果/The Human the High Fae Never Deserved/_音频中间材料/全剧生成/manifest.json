@@ -1,0 +1,617 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Cleo",
+  "style": "One consistent female audiobook storyteller, warm and intimate, with natural expressive storytelling and gentle emotional nuance. Read Chinese narration in fluent Mandarin. Keep character names and every direct dialogue line in English, with clear natural Mandarin and English pronunciation. Use one narrator voice for everything; do not act separate character voices. Keep a human pace, natural pauses, and avoid robotic or formal-announcer delivery.",
+  "input_sha256": "c6a31ef5a741dd289cd7ca3ab0d4f63951897f44e8b24e3ccc1c8fefe3dff5b4",
+  "transcript_sha256": "3aab1ad032965c1c629c943330183a36ce3a940facc548ce455643fef1b2986f",
+  "chunk_text_sha256": [
+    "a564161aa638765e020670050f0181cb89b2326a5eaa64c80a2ca2d3ca5c5d7b",
+    "8d006a9c8edc7e295872ad27e92c6100ce185ae2bb3c1c0f219477423e81a60a",
+    "d05afa68d62dedca515ea13a5a33b280b5144d0caa1845dac3459fcef210e56f",
+    "6d0c2fdf16142bea54ac0cc77f59543bd508afbb9e65b04ab6f54d85f0b83e66",
+    "e56dfb352096337e0e0f364236308f2a88e72da985adf335c4599f54c82b9d4d",
+    "a8b944b2f7bbc85b2ec6657f5ff1f9968e4934a0884bad69c9413e1ec10d9d37",
+    "704369d756c0233dec80b53a7f55182e27740ae53d68b5538d9dfeeebc1be66f",
+    "2e57f2231198cb51e76ea72d356ebd64aeb86650069792273997fe0c1ab3b828",
+    "a29ddadff3063b8dce5d0b89d81aa23323c2777a5d897af642b41f1575196b1f",
+    "dea02aeda48a302726135cdc64829e7c8bb2f7f9d7c98994705bc595342d43bf",
+    "7de346cf94b5316c9213cb9fc51a016013ababde3cf465e41ca660d81e0f6c89",
+    "0a6af5d9cd88410ae25d34d398ddc2ce92f1b0dc633eacce0de4fb25fe09922e",
+    "a3da2b9d6325f2d4fd346acab0d2e49a0f0863e3f1bd0e1970b099baad09461d",
+    "021c8e56d249a784f99cc1b37b7a45faad1df92c06f0daaee267b06df349cb9c",
+    "aebb35aaafde2af53fa519330adecde9a42a3c3e86f9c47fbd36f8f60480d072",
+    "1e0df2f64ab610e84a6acec380e07dbf8bd56fbd5c054bca19e7cae29b6b1239",
+    "837273e10717a5f8a1d563d21836578843fa97ac5ae56389cdeec11b1bda4b38",
+    "8b10b076af6e0ef1991210fe5b17ea555476adc1ce19b5e4d4edb72611cc63c0",
+    "e159baee51b01d94196e3f22c48ae440db60f7fd973432f4f9c20566a314db34",
+    "77631ae6f471af7b9d6f9029765db35f8fd217f4523fbe1c3ba28a055b126012",
+    "4525977c5134e2140ec4230ebe125a8345f74041b27d027347ba717625df3aca",
+    "85f0ba15051565225dc1a6dad1abe3b387a657513a4b5d26b3cda34c2683a0db",
+    "f9c67cbdf79e50194c297b49e9ec093d0a081a40ce55b0fe58f1bc2c4799ba5d",
+    "d3bd5cb081e1746716b7747a230c912f0c85c05101af18f27ceef2a565e67017",
+    "9cebe630f685fb5352ad1b43a490edb43c61cf6d866bf63c48e28850e5728d30",
+    "30efd66e2b7540acef105555f4ac7effba3a1b629ba7a842765414427805f5b0",
+    "3fc8f918dcb1d7a57e7d2d8c3f839018f1ea0d7a75e288b720eb6c75573a4417",
+    "6efb97b145abc4f32657134baa12acc0db86345403399de696b87bc7b5cb6eaa",
+    "921b4b52517c6b939e3c8c457db1523a536303cd5be1435eade9bfed713006df",
+    "09e93881822bdac388259f39e6518b75d226798a1b6ff28d18c15ffed90194d3",
+    "f5cefbea593505493d6eb50b4e215e556149def37f7d5be47c2b277d936bf099",
+    "94e4a4efa3888b59cf5cb00a8f19c1e1bdcd05c1615c83d52d12d04ecf4c02cd",
+    "d15060b98aa9ddd9946362eea9f9735e1c537bd134323ef074b1f1eb697f0909",
+    "a08442bc4dba76e221e85fa1be54c22254cdb95962bd6d5a7beec18ac3c92181",
+    "fc0da09c9cefb27a06b6abea9593a4a25c7ccf1021dd7d595522b08e4c30ffdb",
+    "1f844f0760c21bd261554e1f8961a3cbfea4a49e46ca590ba471065c49d033a2",
+    "1ff019f8d7a46efb93c4ab702f44af1ba45f2aa68f1a5a11e3248aad5994a85e",
+    "9ed5ce99e95b2a28f491863856a52bceef84361a0342a280639b5d740e8b1ab2",
+    "3b214fba5943f0be4a3f215fdd67475637d28f57546032b523c03afc3152bb33",
+    "7540652110b7b392a99ee75706ffcd1a5b488b16b405b0daf9965bf1c14691f9"
+  ],
+  "episode_count": 67,
+  "english_dialogue_turns": 633,
+  "english_dialogue_turns_added_from_source": 9,
+  "english_nonverbal_cues": 5,
+  "chinese_speaker_tags": 628,
+  "transcript_characters": 108913,
+  "chunk_count": 40,
+  "max_chunk_characters": 3369,
+  "chunks_complete": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "per_episode": [
+    {
+      "episode": 1,
+      "english_dialogue_turns": 16,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 16
+    },
+    {
+      "episode": 2,
+      "english_dialogue_turns": 18,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 18
+    },
+    {
+      "episode": 3,
+      "english_dialogue_turns": 5,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 5
+    },
+    {
+      "episode": 4,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 5,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 6,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 7,
+      "english_dialogue_turns": 6,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 6
+    },
+    {
+      "episode": 8,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 9,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 10,
+      "english_dialogue_turns": 9,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 9
+    },
+    {
+      "episode": 11,
+      "english_dialogue_turns": 6,
+      "english_dialogue_turns_added": 1,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 5
+    },
+    {
+      "episode": 12,
+      "english_dialogue_turns": 7,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 7
+    },
+    {
+      "episode": 13,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 14,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 10
+    },
+    {
+      "episode": 15,
+      "english_dialogue_turns": 16,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 1,
+      "chinese_speaker_tags": 17
+    },
+    {
+      "episode": 16,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 17,
+      "english_dialogue_turns": 19,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 19
+    },
+    {
+      "episode": 18,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 10
+    },
+    {
+      "episode": 19,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 1,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 9
+    },
+    {
+      "episode": 20,
+      "english_dialogue_turns": 12,
+      "english_dialogue_turns_added": 1,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 21,
+      "english_dialogue_turns": 6,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 6
+    },
+    {
+      "episode": 22,
+      "english_dialogue_turns": 7,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 7
+    },
+    {
+      "episode": 23,
+      "english_dialogue_turns": 12,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 12
+    },
+    {
+      "episode": 24,
+      "english_dialogue_turns": 14,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 1,
+      "chinese_speaker_tags": 15
+    },
+    {
+      "episode": 25,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 26,
+      "english_dialogue_turns": 3,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 3
+    },
+    {
+      "episode": 27,
+      "english_dialogue_turns": 15,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 15
+    },
+    {
+      "episode": 28,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 29,
+      "english_dialogue_turns": 13,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 13
+    },
+    {
+      "episode": 30,
+      "english_dialogue_turns": 7,
+      "english_dialogue_turns_added": 1,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 6
+    },
+    {
+      "episode": 31,
+      "english_dialogue_turns": 9,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 9
+    },
+    {
+      "episode": 32,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 33,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 34,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 35,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 36,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 37,
+      "english_dialogue_turns": 13,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 13
+    },
+    {
+      "episode": 38,
+      "english_dialogue_turns": 12,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 12
+    },
+    {
+      "episode": 39,
+      "english_dialogue_turns": 6,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 6
+    },
+    {
+      "episode": 40,
+      "english_dialogue_turns": 9,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 9
+    },
+    {
+      "episode": 41,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 42,
+      "english_dialogue_turns": 6,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 6
+    },
+    {
+      "episode": 43,
+      "english_dialogue_turns": 12,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 12
+    },
+    {
+      "episode": 44,
+      "english_dialogue_turns": 12,
+      "english_dialogue_turns_added": 4,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 45,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 10
+    },
+    {
+      "episode": 46,
+      "english_dialogue_turns": 9,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 9
+    },
+    {
+      "episode": 47,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 48,
+      "english_dialogue_turns": 2,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 2
+    },
+    {
+      "episode": 49,
+      "english_dialogue_turns": 5,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 5
+    },
+    {
+      "episode": 50,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 51,
+      "english_dialogue_turns": 7,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 7
+    },
+    {
+      "episode": 52,
+      "english_dialogue_turns": 5,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 5
+    },
+    {
+      "episode": 53,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 10
+    },
+    {
+      "episode": 54,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 55,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 10
+    },
+    {
+      "episode": 56,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 57,
+      "english_dialogue_turns": 5,
+      "english_dialogue_turns_added": 1,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 4
+    },
+    {
+      "episode": 58,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 59,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 1,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 60,
+      "english_dialogue_turns": 4,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 4
+    },
+    {
+      "episode": 61,
+      "english_dialogue_turns": 7,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 1,
+      "chinese_speaker_tags": 7
+    },
+    {
+      "episode": 62,
+      "english_dialogue_turns": 9,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 9
+    },
+    {
+      "episode": 63,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 1,
+      "chinese_speaker_tags": 11
+    },
+    {
+      "episode": 64,
+      "english_dialogue_turns": 10,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 10
+    },
+    {
+      "episode": 65,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 66,
+      "english_dialogue_turns": 8,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 8
+    },
+    {
+      "episode": 67,
+      "english_dialogue_turns": 11,
+      "english_dialogue_turns_added": 0,
+      "english_nonverbal_cues": 0,
+      "chinese_speaker_tags": 11
+    }
+  ],
+  "status": "merged",
+  "chunk_audio_sha256": {
+    "1": "284538430e775312197205cf9085ce26bac5103c941d0e38c18ce6a8c663744b",
+    "2": "2363368072060314721b7af6de50cb89ea85dcc17376bed16f8c82e21fbdf2ff",
+    "3": "a1de610008b3e4387e552c1bb33277d27c1dc4e0abbdd34bd9319003d3b76180",
+    "4": "efe04594c0acad075a859fa5c3f1fe04196779feff68f293bbd4137316fa272e",
+    "5": "c159b60dc177c534c86606e6fd0ce5e89cd4ba9628ed485b79a3bade4c7282f8",
+    "6": "617ae92190aa6f23dca51d7413cdc75ee6a2a11d96a5e0eddf3a167b75ef4007",
+    "7": "2d4f49f441bad28bc08f5beeb7742333aa135dbf9f133f8275341132b87bf0ec",
+    "8": "03ae6f9c90c99b1188b338612bb8277fd2bcc27a8f6742f7ebea660a3f8f718c",
+    "9": "2953a02be92015389e24d5d7da426ccaf2d75dd0b839014c91c22e8ca42b530d",
+    "10": "64e20097a1aca9e9a658ba7abf56c6b91c0168b9b931cb9e50596217733112d9",
+    "11": "d5554360bb81cd08183ab619b7f88d9c5e7f0ed2505d4ff1f540c7413e329dcc",
+    "12": "91e1ffd1b1782a6788b352f90d2e0e7e42b40803d2c28078382d33df2750fcf2",
+    "13": "869c157aea2cbe2ba8d259b41ea4ec9329910eed050865f9e79bafc59133e858",
+    "14": "a4a8a357f0b6563e3e530665151229672bb6ccfd976d2cb948a7a4da88979c6b",
+    "15": "ef6e2cb6453b81ad19b4f54f8c88b8cc236df39cf6da9aba36db4c088efbf78f",
+    "16": "6b5e04b3b016f38a72fdbfc506df90e5601bb7d63b21e7f2fcc1d79e69fe5f94",
+    "17": "4d81a5121a0fb705ea3cd6b418d304042934766f2c3053461be59330a9496e6d",
+    "18": "c1283f1c92505900654f7234745731d923eb8ef5de235512dcabf00dc4d04e62",
+    "19": "1e3fb3b363e40dfebb4254ffc4fc11bd20ee5f955154a27cc10ea0f957c13fb5",
+    "20": "5eea3fea6a16647f7d3b9c17ba8baee686b3d77758b2c0e7a362b4793a2a52e5",
+    "21": "a242ca65eeb35011c89beaf5f88a005a5f952263d4f365bc9f53f5d021a4ea6e",
+    "22": "6513c53be11ec8913dd15612c662ce12d5cbd2755d3cdacd78ca6c11355027fc",
+    "23": "0729a265c2705d38410d58a5a77ef9113ddb90e6858e9e1ca8fcc48ec5a4096c",
+    "24": "3d6b6222e862e779f9c88a050d6c4b953d2a69abbef6fd5c03ee5848e3e0b3f1",
+    "25": "aa449c93934ebe9588650f9fb0a5606489c7d0ff4bfe4eaa808a47c81d845b4d",
+    "26": "8373211588d32239863c36d68cf1a9e81ee71dd27afa6cbeafca4be9c1d50adb",
+    "27": "c7e24744084fe8c9004601b612b7f31428206a2879981284bc245761f0b79555",
+    "28": "d760aea42dd7b58320b7f5b864c78e48862428187eb83a73f43187993d664775",
+    "29": "5d25b9345b390e59141a1de8d46d8a85e09033588a1c25e0cc254e796fb85120",
+    "30": "fcde3e709b8ebaa2bb5ad188cdda455ce04ee225494b310ff58ed37066272f84",
+    "31": "a8b605ce1782d2df17d4a5d93bbee339ab48ab0121af07337c845c45efe77c34",
+    "32": "9c046fe9a59ad3c3b3e76bb2232e52f7f40ebfbfcb40d0ecd32094cb201c4396",
+    "33": "19b3222d6319ca588f2f4fb3f2d81c220752eb7b0f46f2d9c033256ad5313da2",
+    "34": "488557170da6b82e885576e3a46d5fe0a0116af66eeadc037f9576f3a768c9a5",
+    "35": "aa3cc4855dd4188b09d3626d9f049bb63bc99beaee7a0c3a29c9b044a68669f9",
+    "36": "f2b66edfb44bc5fe2022dbd24a2a18094524023f996439a3a5579ae9f9c8a027",
+    "37": "f52ccfbdc8819df83d9acb7a48c7a22d96f1ce2495d463f6bb51613932ffaf58",
+    "38": "55af43c5af05ac01f2e30ad3dd52c8cfb14ee9ea9a77027bee735f5cdb8759cd",
+    "39": "77425be58641b36987bc9973c5d6774720c0824ab5a32324fea55152aab84c33",
+    "40": "748ba365fb4371777a36d77f0c33d925db501dc6af84c64b7a4e7526838897a6"
+  },
+  "last_error": null,
+  "merged_output": "D:\\幻帧剧作视频与提示词\\采集成果\\The Human the High Fae Never Deserved\\音频\\全剧\\The Human the High Fae Never Deserved-单人旁白-中英对白.wav",
+  "merged_bytes": 526740012,
+  "duration_seconds": 10973.75
+}

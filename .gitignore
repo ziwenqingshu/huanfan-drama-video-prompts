@@ -1,0 +1,16 @@
+*
+!**/
+!.gitignore
+!**/*.js
+!**/*.mjs
+!**/*.ps1
+!**/*.py
+!**/*.md
+!**/*.txt
+!**/*.json
+!**/*.csv
+
+.chrome-cdp-profile/
+**/.plus-translation-work/
+**/node_modules/
+**/network-pilot*

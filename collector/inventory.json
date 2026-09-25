@@ -1,0 +1,78 @@
+{
+ "ran_at": "2026-09-09T09:44:27.606Z",
+ "total": 86,
+ "done": 7,
+ "per": [
+  {
+   "id": 5896,
+   "chapters": 63,
+   "shots": 373,
+   "ver_total": 103,
+   "ver_ok": 91,
+   "ver_fail": 12,
+   "err": 0,
+   "name": "新B线  仿真人 Scarred, Crowned, Unbroken （加冕不朽）"
+  },
+  {
+   "id": 1047,
+   "chapters": 1,
+   "shots": 1,
+   "ver_total": 0,
+   "ver_ok": 0,
+   "ver_fail": 0,
+   "err": 0,
+   "name": "李思彤"
+  },
+  {
+   "id": 2255,
+   "chapters": 66,
+   "shots": 489,
+   "ver_total": 1288,
+   "ver_ok": 1187,
+   "ver_fail": 101,
+   "err": 0,
+   "name": "新B线 仿真人 Antlerborn: Bride of the Jungle King 鹿冠新娘"
+  },
+  {
+   "id": 1874,
+   "name": "致命新娘",
+   "chapters": 0,
+   "shots": 0,
+   "ver_total": 0,
+   "ver_ok": 0,
+   "ver_fail": 0,
+   "err": 1,
+   "eval_err": "evaluate timeout"
+  },
+  {
+   "id": 7572,
+   "chapters": 1,
+   "shots": 6,
+   "ver_total": 6,
+   "ver_ok": 6,
+   "ver_fail": 0,
+   "err": 0,
+   "name": "侯攀"
+  },
+  {
+   "id": 6828,
+   "chapters": 1,
+   "shots": 9,
+   "ver_total": 62,
+   "ver_ok": 57,
+   "ver_fail": 5,
+   "err": 0,
+   "name": "二期测试人设"
+  },
+  {
+   "id": 2235,
+   "chapters": 5,
+   "shots": 17,
+   "ver_total": 125,
+   "ver_ok": 72,
+   "ver_fail": 53,
+   "err": 0,
+   "name": "张钰"
+  }
+ ]
+}

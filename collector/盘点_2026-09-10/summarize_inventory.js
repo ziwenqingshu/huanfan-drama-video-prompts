@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path');
+const dir=__dirname,src=JSON.parse(fs.readFileSync(path.join(dir,'inventory_86_readonly.json'),'utf8'));
+const esc=x=>'"'+String(x??'').replaceAll('"','""')+'"';
+const rows=src.rows.map(x=>{const rate=x.versions?x.failed/x.versions:0;const tag=x.chapters===0?'无分镜':x.versions===0?'有分镜无版本':rate>=.2?'失败率≥20%':'可采集';return {...x,fail_pct:(rate*100).toFixed(1),tag};});
+const cols=['id','name','chapters','shots','versions','ready','failed','pending','fail_pct','tag','errors'];
+fs.writeFileSync(path.join(dir,'inventory_86_report.csv'),'\uFEFF'+[cols.join(','),...rows.map(x=>cols.map(k=>esc(k==='errors'?x.errors.join(' | '):x[k])).join(','))].join('\r\n'),'utf8');
+const by=t=>rows.filter(x=>x.tag===t), total=src.sum;
+const list=a=>a.map(x=>`- ${x.id}｜${x.name}｜集${x.chapters}｜分镜${x.shots}｜版本${x.versions}｜可下载${x.ready}｜失败${x.failed}${x.versions?'（'+x.fail_pct+'%）':''}`).join('\n')||'- 无';
+fs.writeFileSync(path.join(dir,'inventory_86_report.md'),`# 幻帧 86 项目只读盘点\n\n- 项目：${src.total}；章节：${total.chapters}；分镜：${total.shots}\n- 版本：${total.versions}；可下载：${total.ready}；平台失败：${total.failed}；待生成：${total.pending}\n- 接口盘点异常：${total.errors}\n\n## 建议排除：无分镜\n\n${list(by('无分镜'))}\n\n## 建议排除：有分镜但无视频版本\n\n${list(by('有分镜无版本'))}\n\n## 需人工判断：失败率≥20%\n\n${list(by('失败率≥20%'))}\n\n完整可筛选表：inventory_86_report.csv\n`,'utf8');
+console.log(JSON.stringify({projects:rows.length,noShots:by('无分镜').length,noVersions:by('有分镜无版本').length,highFailure:by('失败率≥20%').length}));

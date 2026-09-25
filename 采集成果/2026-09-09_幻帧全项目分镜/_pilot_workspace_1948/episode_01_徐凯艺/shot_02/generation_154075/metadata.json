@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "workspace_id": 1948,
+  "episode": { "number": 1, "name": "徐凯艺" },
+  "shot_number": 2,
+  "generation": {
+    "id": 154075,
+    "status": "已就绪",
+    "created_at": "2026-08-07 20:08:23",
+    "model": "【天翼云-悦年轻专属】Doubao-Seedance-2.0 720p",
+    "aspect_ratio": "16:9",
+    "duration_seconds": 15.072
+  },
+  "video": {
+    "path": "video_154075.mp4",
+    "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/videos/202608/01747e9efd22404db48494cf715dc88b.mp4",
+    "poster_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/video_thumb/p12588/s74905/st4418/b0/2560x1440/e524e3a1_b625005dbcf4.jpg",
+    "bytes": 12497629,
+    "sha256": "59E000C631BF933E87306503C884BAF1E63D2FBDDEDCB5BC6005D5B3C2D4BB2F"
+  },
+  "prompt_file": "prompt.md",
+  "references": [
+    { "asset_id": "C06", "label": "@父亲", "local_path": "../../../_assets/C06_父亲.png", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s64971/st0/b0/2560x1440/9e5a7c3a_5311e3c3fcaa.jpg", "sha256": "9C2111FE63654F62B2AB614B0B5BC5C8FCF52590CD37DEC9CD4FC1D4D127F9D9" },
+    { "asset_id": "C01", "label": "@老人", "local_path": "../../../_assets/C01_老人.png", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s64241/st0/b0/space_asset_manual_update_image/7a35772e_19b68dd2b4d7.jpg", "sha256": "946BEAEDB49AFB868A543580E07B652587C24E4E42D1167A9AEB4216F4D69798" },
+    { "asset_id": "C02", "label": "@学生", "local_path": "../../../_assets/C02_学生.png", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s64273/st0/b0/2560x1440/70df7c62_8a63065e6434.jpg", "sha256": "4D6AC7223F2B8467D5E41BE08194A251CB65E62DD11C92B1C247C986033FD644" },
+    { "asset_id": "SC05", "label": "@接待处", "local_path": "../../../_assets/SC05_接待处.png", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s70973/st0/b0/2560x1440/fe251f17_7acad5383530.jpg", "sha256": "36151499B3F3806C48DD4497037DA5DAFD5EA1E5E175B5705B1912A2BB2582F3" },
+    { "asset_id": "C09", "label": "@验配师", "local_path": "../../../_assets/C09_验配师.png", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s65163/st0/b0/2560x1440/7f0c26ed_9ee6136f58bb.jpg", "sha256": "D7D8E3455A8EA16F9FFC6336C0C944049E9E9C18508AA3F60C704C5E689AFF03" },
+    { "asset_id": "SC02", "label": "@视力检测室", "local_path": "../../../_assets/SC02_视力检测室.png", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s66850/st0/b0/space_asset_manual_image/071a1756_972a8f8cf972.jpg", "sha256": "22E92866A0E2DB9B90CA064560E42A511D265FD224D100A3C6DEA7EC84D2507D" },
+    { "asset_id": "C11", "label": "@测听力的验配师", "local_path": "../../../_assets/C11_测听力的验配师.jpg", "source_url": "https://fantaframeultra.tos-cn-shanghai.volces.com/svt/thumb/p1948/s71255/st0/b0/space_asset_manual_image/43e9361e_059cabc91cc4.jpg", "sha256": "B3D0ED95CEE6810C513B9C0A5DE50909B5C97A27F8ED22383F48D4340CA63839" }
+  ]
+}
